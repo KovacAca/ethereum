@@ -1,0 +1,14 @@
+:root {
+    --headings: #333333;
+    --text: #666666;
+    --violet: #d2d2f9;
+    --tirkiz: #ccfcff;
+    --orange: #ffe3d3;
+    --pink: #ffe5f9;
+    --gray: #e8e8fc;
+    --blue: #1c1ce1;
+    --lightgray: #fcfcfc;
+    --fontSize: 16px;
+    --padding: 50px 0;
+    --transition: .3s ease;
+}
