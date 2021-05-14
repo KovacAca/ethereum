@@ -70,6 +70,11 @@ button {
   border: 1px solid var(--blue);
   box-shadow: 3px 3px var(--violet);
 }
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
 /****************
 nav
 ****************/
@@ -152,6 +157,26 @@ welcome
 .welcome p {
   padding: 30px;
   font-size: 1.2rem;
+}
+/****************
+getStarted
+****************/
+.getStarted {
+  padding: var(--padding);
+  background-color: var(--lightgray);
+}
+.getStarted img {
+  width: 100%;
+}
+.getStarted article {
+  flex: 0 0 48%;
+}
+.getStarted article:first-child {
+  padding: 120px;
+}
+.getStarted p {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
 }
 
 
