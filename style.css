@@ -324,6 +324,9 @@ colors
   font-weight: 300;
   transition: .1s ease-in-out;
 }
+.gray a:hover {
+  background: var(--violet);
+}
 .gray a p {
   padding-bottom: 0;
   font-size: .9rem;
@@ -333,9 +336,58 @@ colors
   font-size: 1rem;
   font-weight: 400;
 }
-.gray a:hover {
-  background: var(--violet);
+/****************
+today
+****************/
+.today {
+  padding: 80px 50px;
+  background-color: var(--lightgray);
 }
+.today h3 {
+  font-weight: 400;
+}
+.today .col {
+  flex: 0 0 50%;
+  border: 1px solid var(--headings);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+.today > p {
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+.today span {
+  font-size: 4rem;
+  color: var(--headings);
+  font-weight: 500;
+}
+.today .col h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.today a {
+  color: var(--headings);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 2px solid var(--headings);
+  border-radius: 50%;
+  position: relative;
+  top: -5px;
+  left: 15px;
+}
+.today a:hover {
+  color: var(--blue);
+  border: 2px solid var(--blue);
+
+}
+
+
 
 
 
